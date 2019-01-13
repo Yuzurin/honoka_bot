@@ -18,7 +18,7 @@ func makan_makan() string {
 }
 
 func main() {
-  bot, err := tgbotapi.NewBotAPI("713405222:AAFVw4cobDesBWaMfobprSZN1kermofs7gI")
+  bot, err := tgbotapi.NewBotAPI("")
   if err != nil {
     log.Panic(err)
   }
